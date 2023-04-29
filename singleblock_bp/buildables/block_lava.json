@@ -1,0 +1,41 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "lumin:block_lava",
+        "runtime_identifier": "badger:buildable",
+        "is_summonable": false
+      },
+      "mushroom_data": {
+        "function": "Military",
+        "type": "Piglin"
+      },
+      "components": {
+        "badger:template": ["badger:template_structure"],
+        "badger:buildable_structure": {
+          "build_time": 0,
+          "construction_start_trigger": "on_construction_start",
+          "construction_end_trigger": "on_construction_end"
+        },
+        "badger:tags":{
+            "tags":[
+              "single_block_lava"
+            ]
+        },
+        "badger:buildable_presentation": {
+          "icon": "blk_lava",
+          "tooltip_title": "block/lava",
+          "tactical_description": "block/lava",
+          "tooltip_description": "block/lava",
+          "buildable_category": "mobs",
+          "sort_order": 1500
+        },
+        "badger:buildable_requirement": {
+          "invalid_blocks": [],
+          "invalid_block_tags": [
+          ]
+        }
+      }
+    }
+  }
+  

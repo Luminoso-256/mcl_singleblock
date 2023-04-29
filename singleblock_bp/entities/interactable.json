@@ -1,0 +1,38 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "lumin:interactable",
+        "runtime_identifier": "badger:badger_mob",
+        "is_summonable": true
+      },
+      "components": {
+        "badger:aabb": {
+          "width": 0.6,
+          "height": 1.8
+        },
+        "badger:interactable": {
+            "interactions": [
+              {
+                "alliance_rule_filter": "any_team",
+                "exclude_tags": [],
+                "include_tags": ["player"],
+                "input_layout_override": "overlay_gameplay_chest_interaction_hold",
+                "name": "interaction_zone",
+                "range": 5
+              }
+            ]
+        },
+        "badger:campaign_team": { "team_tag": "campaign_team" },
+        "badger:exclude_from_spatial_partition": {},
+        "badger:world_collision": { "auto_step": 1.1, "has_collision": true },
+        "badger:waypoint_marker": {
+            "important": true,
+            "label": "",
+            "path": "waypoint_chest_allay",
+            "pvp_only": false,
+            "world_position_offset": [0, 3, 0]
+          },
+      }
+    }
+  }

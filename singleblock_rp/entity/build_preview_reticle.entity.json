@@ -1,0 +1,58 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "badger:build_preview_reticle"
+    },
+    "components": {
+        // "badger:decal_visualization": {
+        //     "decal_textures": [
+        //       "decal_orders"
+        //     ],
+        //     "is_symmetric_texture":false,
+        //     "animation_frame_count": 12,
+        //     "animation_framerate": 15,
+        //     "lifetime": 2,
+        //     "fade_out_start": 2,
+        //     "decal_size": [
+        //       1,
+        //       2.25,
+        //       1
+        //     ],
+        //     "bin": "overlay",
+        //     "shape": "none",
+        //     "sort_key": 10,
+        //     "apply_to_owned": true,
+        //     "height_fade": true,
+        //     "start_enabled": true
+        //   }
+        "badger:rendering": {
+            "definition": "badger:entity_struct_banner"
+          },
+        "badger:beacon_render_info": {
+            "states": [
+              {
+                "meta_material": "mat_item_banner",
+                "beacon_color": [
+                  0,
+                  0,
+                  0
+                ],
+                "min_distance": 0,
+                "max_distance": 150
+              },
+              {
+                "meta_material": "mat_item_banner",
+                "beacon_color": [
+                  0,
+                  0,
+                  0
+                ],
+                "min_distance": 0,
+                "max_distance": 150
+              }
+            ]
+          }
+    }
+  }
+}

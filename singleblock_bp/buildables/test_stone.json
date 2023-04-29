@@ -1,0 +1,41 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "lumin:block_stone",
+        "runtime_identifier": "badger:buildable",
+        "is_summonable": false
+      },
+      "mushroom_data": {
+        "function": "Military",
+        "type": "Piglin"
+      },
+      "components": {
+        "badger:template": ["badger:template_structure"],
+        "badger:buildable_structure": {
+          "build_time": 0,
+          "construction_start_trigger": "on_construction_start",
+          "construction_end_trigger": "on_construction_end"
+        },
+        "badger:tags":{
+            "tags":[
+              "single_block_stone"
+            ]
+        },
+        "badger:buildable_presentation": {
+          "icon": "blk_stone",
+          "tooltip_title": "block/stone",
+          "tactical_description": "block/stone",
+          "tooltip_description": "block/stone",
+          "buildable_category": "mobs",
+          "sort_order": 1500
+        },
+        "badger:buildable_requirement": {
+          "invalid_blocks": [],
+          "invalid_block_tags": [
+          ]
+        }
+      }
+    }
+  }
+  

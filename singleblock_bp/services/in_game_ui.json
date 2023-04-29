@@ -1,0 +1,76 @@
+{
+    "badger:in_game_ui": {
+      "badger:template": {
+        "parent": "badger:in_game_ui",
+        "game_mode": "mod_template"
+      },
+      "toolbar_items": [
+        {
+          // resourcing
+          "toolbar_id": "resourcing",
+          "initial_hotbar_items": [
+            "lumin:block_dirt",
+            "lumin:block_grass",
+            "lumin:block_stone",
+            "lumin:block_water",
+            "lumin:block_lava"
+          ]
+        },
+        {
+          // combat
+          "toolbar_id": "mobs",
+          "initial_hotbar_items": [
+            "badger:spawner_wood_golem",
+            "badger:spawner_stone_golem"
+            // "badger:spawner_support_golem",
+            // "badger:spawner_cavalry_golem",
+            // "badger:spawner_zombie",
+            // "badger:spawner_skeleton",
+            // "badger:spawner_creeper"
+          ]
+        },
+        {
+          // structure
+          "toolbar_id": "utility",
+          "initial_hotbar_items": [
+            "badger:chunk_drag_wall",
+            "badger:stairs_wood",
+            "badger:gate",
+            "badger:zoner_regen_structures",
+            "badger:tower_arrow"
+          ]
+        },
+        {
+          // village
+          "toolbar_id": "village",
+          "initial_hotbar_items": [
+            // "badger:poi_zoner_well_of_fate_pylon"
+            // "badger:unlock_gather_uncommon",
+            // "badger:unlock_gather_rare",
+            // "badger:unlock_redstone",
+            // "badger:increase_starting_cap",
+            // "badger:unlock_linked_village_chests",
+            // "badger:increase_carpenter_regen",
+            // "badger:increase_mason_rate"
+          ]
+        }
+      ],
+      "hud_initial_visible_elements": [
+        "hud_hearts",
+        "hud_compass",
+        "hud_toolbar",
+        "hud_hotbar",
+        "hud_quickslot",
+        "hud_spawner_bar_flames",
+        "hud_spawner_bar_spawners",
+        "hud_spawner_bar_build_allays",
+        "hud_spawner_bar_gather_allays",
+        "hud_map",
+        "hud_face_buttons",
+        "hud_resource_bar_core",
+        "hud_resource_bar_other",
+        "hud_objective_health_bars",
+        "songbook"
+      ]
+    }
+  }
